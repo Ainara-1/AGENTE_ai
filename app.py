@@ -209,10 +209,10 @@ if st.session_state.paso == 1:
 
     st.image("images/portada_cumpleplan.png", use_container_width=True)
 
-    st.markdown(
-        "<h3 style='text-align:center;'>Planifica un cumpleaños infantil personalizado en pocos minutos mediante inteligencia artificial.</h3>",
-        unsafe_allow_html=True
-    )
+    #st.markdown(
+    #    "<h3 style='text-align:center;'>Planifica un cumpleaños infantil personalizado en pocos minutos mediante inteligencia artificial.</h3>",
+    #    unsafe_allow_html=True
+    #)
 
     if st.button("🚀 Comenzar planificación", use_container_width=True):
         ir_a_paso(2)
@@ -368,21 +368,6 @@ elif st.session_state.paso == 3:
 
 
 
-
-
-
-            #f"""
-            #<div style="
-            #    border:4px solid {color["borde"]};
-            #    border-radius:18px;
-            #    padding:22px;
-            #    margin-bottom:20px;
-            #    box-shadow:0 0 14px {color["borde"]}55;
-            #">
-            #""",
-            #unsafe_allow_html=True
-        #)
-
         col_icono, col_info, col_actividades, col_motivo = st.columns([0.7, 2, 2.2, 2])
 
         with col_icono:
@@ -452,7 +437,7 @@ elif st.session_state.paso == 3:
                 st.rerun()
 
 
-        #st.markdown("</div>", unsafe_allow_html=True)
+        
 
         st.markdown(
             f"""
