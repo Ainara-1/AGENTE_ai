@@ -56,7 +56,7 @@ A partir de los datos proporcionados por el usuario, el agente genera diferentes
 
 # 🏗 Arquitectura del proyecto
 
-![Flujo](images/flujo_agente.jpg)
+![Flujo](images/flujo_agente.png)
 
 ---
 
